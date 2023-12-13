@@ -29,19 +29,9 @@ To run the included example, you must have [Node.js](https://nodejs.org/en/) ins
    npm install
    ```
 
-3. set the environment variables
+3. set the environment variables (DM Natalie)
 
-- wirte your token to `.env` file or set the environment variables
-
-  ```bash
-    #example variables, please set up yours
-
-    export SERVER_ID="1082500871478329374"
-    export CHANNEL_ID="1094892992281718894"
-    export SALAI_TOKEN="your-discord-token"
-  ```
-
-- Then, run the example with the following command:
+- Then, run the example with the following command and images will be automatically downloaded in the example folder.
 
   ```bash
   npx tsx example/upscale-ws.ts
